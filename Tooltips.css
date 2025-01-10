@@ -1,0 +1,39 @@
+.invslot-item-image {
+    position: relative;
+    display: inline-block; /* Para que o tooltip fique ao lado do item */
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: auto;
+    background-color: black;
+    color: #fff;
+    border-color: blue;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -50%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: smaller; /* Ajuste o tamanho da fonte conforme necessário */
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.invslot-item-image:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
