@@ -1,9 +1,25 @@
-.invslot-item-image {
+/* .invslot-item-image {
     position: relative;
-    display: inline-block; /* Para que o tooltip fique ao lado do item */
+    display: inline-block;  Para que o tooltip fique ao lado do item 
+} */
+.invslot {
+    position: relative;
+    display: inline-block;
+    background: #8B8B8B no-repeat center center / 32px 32px;
+    border: 2px solid;
+    border-color: #373737 #FFF #FFF #373737;
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 1;
+    text-align: left;
+    vertical-align: bottom;
+}
+.invslot-large {
+    padding: 8px;
 }
 
-.tooltip-text {
+/* .tooltip-text {
     visibility: hidden;
     width: auto;
     background-color: black;
@@ -19,7 +35,7 @@
     margin-left: -50%;
     opacity: 0;
     transition: opacity 0.3s;
-    font-size: smaller; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: smaller; 
 }
 
 .tooltip-text::after {
@@ -36,4 +52,4 @@
 .invslot-item-image:hover .tooltip-text {
     visibility: visible;
     opacity: 1;
-}
+} */
