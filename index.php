@@ -70,6 +70,10 @@ function GenerateMaterial($materials){
         }
        ?>
     </select>
+    <img src="https://minecraft.wiki/images/Grid_layout_Arrow_%28small%29.png?a4894" alt="">
+    <select name="result" id="" class="invslot invslot-large">
+        <?php GenerateMaterial($materials);?>
+    </select>
     <br>
     <select name="7" id="" class="invslot">
         <?php

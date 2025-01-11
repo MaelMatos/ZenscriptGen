@@ -2,6 +2,9 @@
     position: relative;
     display: inline-block;  Para que o tooltip fique ao lado do item 
 } */
+select {
+	appearance: none;
+}
 .crafting{
     background-color: #C6C6C6;
     display: inline-block;
