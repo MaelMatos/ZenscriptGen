@@ -18,9 +18,9 @@ $materials = array(
 function GenerateMaterial($materials){
     $mod = "minecraft";
     foreach($materials as $material){
-        if (!(explode(':',$material[0])[0] == $mod)){
-            $mod = explode(':',$material[0])[0];
-            echo '<optgroup label="'.$mod.'" class="tooltip"></optgroup>';
+        if (!(explode(':',$material[1])[0] == $mod)){
+            $mod = explode(':',$material[1])[0];
+            echo '<optgroup label="'.$mod.'" class="tooltip" style="color: blue;"></optgroup>';
         }
         echo '<option value="'.$material[1].'" class="tooltip">'.$material[0].'</option>';
     }

@@ -30,12 +30,14 @@
     padding: 8px;
 }
 .tooltip{
-    background-color: black;
+    background-color: rgba(16, 0, 16, 0.94);
+    font-family: Minecraft, sans-serif;
+    text-shadow: 0.125em 0.125em 0 #3E3E3E;
     color: #FFF;
-    border-color: white;
+    border-color: #2D0A63;
 }
 .tooltip optgroup {
-    color: blue;
+    color: blue!important;
     font-weight: bold;
 }
 
