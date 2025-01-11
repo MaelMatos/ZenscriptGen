@@ -2,6 +2,17 @@
     position: relative;
     display: inline-block;  Para que o tooltip fique ao lado do item 
 } */
+.crafting{
+    background-color: #C6C6C6;
+    display: inline-block;
+    position: relative;
+    background-color: #C6C6C6;
+    border: 2px solid;
+    border-color: #DBDBDB #5B5B5B #5B5B5B #DBDBDB;
+    padding: 6px;
+    width: 30%;
+    height: 10%;
+}
 .invslot {
     position: relative;
     display: inline-block;
@@ -17,6 +28,15 @@
 }
 .invslot-large {
     padding: 8px;
+}
+.tooltip{
+    background-color: black;
+    color: #FFF;
+    border-color: white;
+}
+.tooltip optgroup {
+    color: blue;
+    font-weight: bold;
 }
 
 /* .tooltip-text {
