@@ -2,12 +2,19 @@
     position: relative;
     display: inline-block;  Para que o tooltip fique ao lado do item 
 } */
-select {
+/* select {
 	appearance: none;
+} */
+
+.itemlist{
+    border: #2D0A63;
+    height: auto;
+    width: 32%;
 }
+
 .crafting{
     background-color: #C6C6C6;
-    display: inline-block;
+    display: flex;
     position: relative;
     background-color: #C6C6C6;
     border: 2px solid;
@@ -16,6 +23,18 @@ select {
     width: 30%;
     height: 10%;
 }
+.craftingright{
+padding-top: 50%;
+}
+.craftingleft{
+    width: 50%;
+    height: 100%;
+    vertical-align: middle;
+}
+.subimit{
+    width: 32%;
+}
+
 .invslot {
     position: relative;
     display: inline-block;
